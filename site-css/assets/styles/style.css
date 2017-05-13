@@ -1,0 +1,13 @@
+.icon {
+    height: 48px;
+    width: 48px;
+    background-color: #000;
+}
+
+.icon:hover {
+    transition: all ease-out 1s;
+    background-color: #F00;
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 100%;
+}

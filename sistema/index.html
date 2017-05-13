@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" title="Logo">
+            <img src="logo.png" alt="Logo" />
+        </a>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Link</a>
+                    <ul>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li>
+                            <a href="#">Link</a>
+                            <ul>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <ul>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+    </ul>
+
+    <section>
+        <h1>
+            Titulo
+        </h1>
+
+        <form>
+
+            <label>
+                Nome
+                <input type="text" name="name" required>
+            </label>
+            <label>
+                Data de nascimento
+                <input type="number" name="birthdate" required>
+            </label>
+            <label>
+                Sobrenome
+                <input type="text" name="surname" required>
+            </label>
+            <label>
+                RG
+                <input type="text" name="rg" required pattern="(^(\d{2}\x2E\d{3}\x2E\d{3}[-]\d{1})$|^(\d{2}\x2E\d{3}\x2E\d{3})$)" >
+            </label>
+            <label>
+                Descricao
+                <textarea name="description"></textarea>
+            </label>
+
+            <button type="submit">
+                ENVIAR
+            </button>
+
+            <button type="reset">
+                LIMPAR
+            </button>
+
+
+        </form>
+
+        <ul>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </section>
+
+</body>
+</html>
